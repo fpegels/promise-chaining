@@ -1,3 +1,5 @@
+// from https://gist.github.com/ericelliott/dc7bab0a2ca85af345033d721b3d9c39#file-promise-chaining-js
+
 const wait = time => new Promise(
   res => setTimeout(() => res(), time)
 );
